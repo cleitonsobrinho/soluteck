@@ -143,11 +143,35 @@ body {
   }
 }
 
+.whatsapp-contact:hover {
+
+  color: #4ed325;
+  text-transform: uppercase;
+}
+
+.whatsapp-contact p {
+  margin-right: 10px;
+
+}
+
 
 
 @media (max-width: 600px) {
   #box {
     display: block;
   
+  }
+
+  .whatsapp-contact {
+    display: none;
+    width: auto;
+    display: flex;
+    align-items: center;
+    color: #088536;
+    font-size: 20px;
+    position: fixed;
+    bottom: 50%;
+    right: 0px;
+
   }
 }
