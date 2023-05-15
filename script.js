@@ -29,7 +29,7 @@ function showSlides() {
   slideIndex++;
   if (slideIndex > slides.length) { slideIndex = 1 }
   slides[slideIndex - 1].style.display = "block";
-  setTimeout(showSlides, 8000); // Change image every 8 seconds
+  setTimeout(showSlides, 7000); // Change image every 5 seconds
 
   for (i = 0; i < dots.length; i++) {
     dots[i].className = dots[i].className.replace(" active", "");
@@ -38,3 +38,4 @@ function showSlides() {
   dots[slideIndex - 1].className += " active";
 
 }
+

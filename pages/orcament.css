@@ -1,0 +1,153 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Open Sans', 'icones', sans-serif;
+  background-color: #41bbbb39;
+}
+
+#headerOrcament{
+  background-image: linear-gradient(to right, #070707, #323232e3);
+  width: 100%;
+  height: 120px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  font-size: 35px;
+  color: #0089d1;
+  text-transform: uppercase;
+}
+
+.main-title {
+  display: none;
+}
+
+
+.logo-main {
+  width: 110px;
+  height: 120px;
+
+}
+
+#menuOrcament {
+  width: auto;
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+#menuOrcament a {
+  
+  font-size: 20px;
+  margin-right: 20px;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+#menuOrcament a:hover {
+  color: #bcbdbf;
+  text-decoration: underline;
+}
+
+#btn-mobile {
+  display: none;
+}
+
+#container{
+  margin: auto;
+  width: 70%;
+  height: 100vh;
+  text-align: center;
+}
+
+#container h1 {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  size: 25px;
+  margin-top: 0px;
+  padding: 20px;
+  text-decoration: underline;
+  color: #0089d1;
+}
+#container p {
+  font-family: Arial, Helvetica, sans-serif;
+  text-indent: 30px;
+  align-items: center;
+  text-align: left;
+  padding: 10px;
+}
+
+#box {
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: auto auto auto;
+  justify-items: center;
+  justify-content: center;
+  grid-gap: 10px;
+
+}
+
+.ContainerImageMain {
+  width: 250px;
+  height: 370px;
+  margin-top: 10px;
+  text-align: center;
+  background-color: #2B2B2B;
+  color: #0089d1;
+}
+
+.patrimony{
+  padding: 10px;
+  margin-top: 3px;
+}
+
+.containerImage{
+  width: 100%;
+  height: 300px;
+}
+
+.containerImage img{
+  width: 100%;
+  height: 100%;
+}
+
+
+.whatsapp-contact {
+  width: auto;
+  display: flex;
+  align-items: center;
+  color: #106605;
+  font-size: 20px;
+  position: fixed;
+  bottom: 50%;
+  right: 0px;
+  animation: animate 1.5s linear infinite;
+
+}
+
+@keyframes animate {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0.7;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+
+
+@media (max-width: 600px) {
+  #box {
+    display: block;
+  
+  }
+}
