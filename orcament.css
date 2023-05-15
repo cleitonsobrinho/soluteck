@@ -172,6 +172,9 @@ body {
     position: fixed;
     bottom: 50%;
     right: 0px;
+  }
 
+  #text-whatsapp {
+    display: none;
   }
 }
